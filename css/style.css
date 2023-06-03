@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+/****************************
+     header section start
+****************************/
+header{
+	width: 100%;
+     background-color: #f5f5f5;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo a{
+	text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    line-height: 80px;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 0px 10px;
+    line-height: 81px;
+}
+
+.m-btn{
+     text-decoration: none;
+     text-transform: capitalize;
+     padding: 10px 25px;
+     color: white;
+     background: #5900FF;
+     border-radius: 50px;
+     border: none;
+     margin-top: 18px;
+     font-size: 16px;
+}
+/***************************
+     header section end
+***************************/
+
+
+
+/****************************
+     banner section start
+****************************/
+.banner{
+     background-color: #f5f5f5;
+}
+
+.banner-content{
+     display: flex;
+     padding-top: 70px;
+}
+
+.b-left img{
+     width: 500px;
+}
+
+.br-left{
+     padding-top: 136px;
+     padding-left: 73px;
+}
+
+.bh2 h2{
+     font-size: 96px;
+}
+
+.b-btn{
+     text-decoration: none;
+     text-transform: capitalize;
+     padding: 10px 25px;
+     color: white;
+     background: #5900FF;
+     border-radius: 50px;
+     display: inline-block;
+     border: none;
+     font-size: 16px;
+}
+/****************************
+     banner section end
+****************************/
+
+
+
+/****************************
+    service section start
+****************************/
+.service{
+     background: #EEEEEE;
+     padding: 70px 0px;
+}
+
+.service-content{
+     display: grid;
+     grid-template-rows: auto auto;
+     row-gap: 50px;
+}
+.service-1{
+     text-align: center;
+     display: flex;
+     justify-content: space-between;
+}
+.s-box, .s-box2, .s-box3, .s-box5{
+     padding: 30px 40px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 5px;
+}
+.s-box1, .s-box4{
+     margin: 0px 50px;
+     padding: 30px 19px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 5px;
+}
+.s-box1 p, .s-box4 p{
+     padding: 0px 24px;
+}
+.s-box i, .s-box1 i, .s-box2 i, .s-box3 i, .s-box4 i, .s-box5 i{
+     color: #5900FF;
+     font-size: 50px;
+     margin-bottom: 10px;
+}
+.s-box h3, .s-box1 h3, .s-box2 h3, .s-box3 h3, .s-box4 h3, .s-box5 h3{
+     font-size: 25px;
+     font-weight: 500;
+     text-transform: capitalize;
+}
+/**************************
+    service section end
+**************************/
+
+
+
+/**************************
+    about section start
+**************************/
+.about{
+     background: #F5F5F5;
+     padding: 70px 0;
+}
+.about-content{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 150px;
+}
+.a-left h2{
+     font-size: 60px;
+     font-weight: 500;
+}
+.a-left p{
+     margin: 20px 0px;
+}
+.a-btn button{
+     text-decoration: none;
+     text-transform: capitalize;
+     padding: 10px 25px;
+     color: white;
+     font-size: 16px;
+     background: #5900FF;
+     border: none;
+     border-radius: 50px;
+     display: inline-block;
+}
+.a-right img{
+     width: 400px;
+     border-radius: 5px;
+}
+/*************************
+    about section end
+*************************/
+
+
+
+/****************************
+    gallery section start
+****************************/
+.gallery{
+     background: #EEEEEE;
+     padding: 70px;
+}
+.sec-title h2{
+     font-size: 60px;
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 30px;
+}
+.g-middle, .g-bottom{
+     display: flex;
+}
+.g-middle img{
+     width: 380px;
+     border-radius: 5px;
+     margin-right: 20px;
+     margin-bottom: 27px;
+}
+.g-bottom img{
+     width: 380px;
+     border-radius: 5px;
+     margin-right: 20px;
+     margin-bottom: 7px;
+}
+/***************************
+    gallery section end
+***************************/
+
+
+
+/***************************
+    footer section start
+***************************/
+footer{
+     padding: 50px 0 80px 0px;
+     background-color: black;
+     color: white;
+     text-align: center;
+}
+.footer-content h2{
+     font-size: 50px;
+     font-weight: 500;
+}
+.f-btn button{
+     text-decoration: none;
+     text-transform: capitalize;
+     padding: 10px 25px;
+     color: white;
+     font-size: 16px;
+     background: #5900FF;
+     border: none;
+     border-radius: 50px;
+     display: inline-block;
+}
+/***************************
+    footer section start
+***************************/
